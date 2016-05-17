@@ -73,15 +73,21 @@ public final class StringResponseHandler implements HttpResponseHandler<String>
 
 		// note: we already read the content in larger chunks so there should be no need for a BufferedReader
 		Reader reader = new InputStreamReader(entity.contentStream(), contentType != null ? contentType.charset(mDefaultCharset) : mDefaultCharset);
-
-		int read;
-		final char[] buffer = new char[BUFFER_SIZE];
-
-		while ((read = reader.read(buffer)) >= 0)
+		try
 		{
-			builder.append(buffer, 0, read);
-		}
+			int read;
+			final char[] buffer = new char[BUFFER_SIZE];
 
-		return builder.toString();
+			while ((read = reader.read(buffer)) >= 0)
+			{
+				builder.append(buffer, 0, read);
+			}
+
+			return builder.toString();
+		}
+		finally
+		{
+			reader.close();
+		}
 	}
 }
