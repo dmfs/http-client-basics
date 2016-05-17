@@ -7,7 +7,8 @@
 	<version>0.6</version>
 	<packaging>jar</packaging>
 	<name>http-client-basics</name>
-	<description>Basic implementations of http-client-essentials that are frequently used.</description>
+	<description>Basic implementations of http-client-essentials that are
+		frequently used.</description>
 	<url>https://github.com/dmfs/http-client-basics</url>
 	<licenses>
 		<license>
@@ -24,8 +25,10 @@
 		</developer>
 	</developers>
 	<scm>
-		<connection>scm:git:git@github.com:dmfs/http-client-basics.git</connection>
-		<developerConnection>scm:git:git@github.com:dmfs/http-client-basics.git</developerConnection>
+		<connection>scm:git:git@github.com:dmfs/http-client-basics.git
+		</connection>
+		<developerConnection>scm:git:git@github.com:dmfs/http-client-basics.git
+		</developerConnection>
 		<url>git@github.com:dmfs/http-client-basics.git</url>
 	</scm>
 
@@ -43,6 +46,14 @@
 			<groupId>org.dmfs</groupId>
 			<artifactId>http-client-essentials</artifactId>
 			<version>0.6</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.dmfs</groupId>
+			<artifactId>http-client-headers</artifactId>
+			<version>0.6</version>
+			<scope>test</scope>
+			<optional>true</optional>
 		</dependency>
 
 	</dependencies>

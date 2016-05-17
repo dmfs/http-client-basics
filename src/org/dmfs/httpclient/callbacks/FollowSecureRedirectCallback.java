@@ -55,7 +55,7 @@ public final class FollowSecureRedirectCallback implements OnRedirectCallback
 
 
 	/**
-	 * Don't Instantiate this, use {@link #getInstance()}. Instead.
+	 * Don't instantiate this, use {@link #getInstance()}. Instead.
 	 */
 	private FollowSecureRedirectCallback()
 	{
