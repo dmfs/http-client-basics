@@ -1,4 +1,4 @@
-package org.dmfs.httpclient.responsehandlers;
+package org.dmfs.httpessentials.responsehandlers;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.fail;
@@ -9,17 +9,17 @@ import java.io.InputStream;
 import java.net.URI;
 import java.util.Random;
 
-import org.dmfs.httpclient.HttpResponse;
-import org.dmfs.httpclient.HttpResponseEntity;
-import org.dmfs.httpclient.HttpStatus;
-import org.dmfs.httpclient.exceptions.ProtocolError;
-import org.dmfs.httpclient.exceptions.ProtocolException;
-import org.dmfs.httpclient.headers.EmptyHeaders;
-import org.dmfs.httpclient.headers.Headers;
-import org.dmfs.httpclient.headers.HttpHeaders;
-import org.dmfs.httpclient.headers.SingletonHeaders;
-import org.dmfs.httpclient.types.MediaType;
-import org.dmfs.httpclient.types.StructuredMediaType;
+import org.dmfs.httpessentials.HttpStatus;
+import org.dmfs.httpessentials.client.HttpResponse;
+import org.dmfs.httpessentials.client.HttpResponseEntity;
+import org.dmfs.httpessentials.exceptions.ProtocolError;
+import org.dmfs.httpessentials.exceptions.ProtocolException;
+import org.dmfs.httpessentials.headers.EmptyHeaders;
+import org.dmfs.httpessentials.headers.Headers;
+import org.dmfs.httpessentials.headers.HttpHeaders;
+import org.dmfs.httpessentials.headers.SingletonHeaders;
+import org.dmfs.httpessentials.types.MediaType;
+import org.dmfs.httpessentials.types.StructuredMediaType;
 import org.junit.Test;
 
 

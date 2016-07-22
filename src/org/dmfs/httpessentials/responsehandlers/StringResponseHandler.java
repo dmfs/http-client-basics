@@ -15,18 +15,18 @@
  * limitations under the License.
  */
 
-package org.dmfs.httpclient.responsehandlers;
+package org.dmfs.httpessentials.responsehandlers;
 
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.Reader;
 
-import org.dmfs.httpclient.HttpResponse;
-import org.dmfs.httpclient.HttpResponseEntity;
-import org.dmfs.httpclient.HttpResponseHandler;
-import org.dmfs.httpclient.exceptions.ProtocolError;
-import org.dmfs.httpclient.exceptions.ProtocolException;
-import org.dmfs.httpclient.types.MediaType;
+import org.dmfs.httpessentials.client.HttpResponse;
+import org.dmfs.httpessentials.client.HttpResponseEntity;
+import org.dmfs.httpessentials.client.HttpResponseHandler;
+import org.dmfs.httpessentials.exceptions.ProtocolError;
+import org.dmfs.httpessentials.exceptions.ProtocolException;
+import org.dmfs.httpessentials.types.MediaType;
 
 
 /**

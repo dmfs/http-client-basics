@@ -15,12 +15,12 @@
  * limitations under the License.
  */
 
-package org.dmfs.httpclient.callbacks;
+package org.dmfs.httpessentials.callbacks;
 
 import java.net.URI;
 
-import org.dmfs.httpclient.HttpStatus;
-import org.dmfs.httpclient.OnRedirectCallback;
+import org.dmfs.httpessentials.HttpStatus;
+import org.dmfs.httpessentials.client.OnRedirectCallback;
 
 
 /**

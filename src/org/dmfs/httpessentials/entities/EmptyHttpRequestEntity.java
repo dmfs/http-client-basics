@@ -15,13 +15,13 @@
  * limitations under the License.
  */
 
-package org.dmfs.httpclient.entities;
+package org.dmfs.httpessentials.entities;
 
 import java.io.IOException;
 import java.io.OutputStream;
 
-import org.dmfs.httpclient.HttpRequestEntity;
-import org.dmfs.httpclient.types.MediaType;
+import org.dmfs.httpessentials.client.HttpRequestEntity;
+import org.dmfs.httpessentials.types.MediaType;
 
 
 /**

@@ -15,20 +15,20 @@
  * limitations under the License.
  */
 
-package org.dmfs.httpclient.responsehandlers;
+package org.dmfs.httpessentials.responsehandlers;
 
 import java.io.IOException;
 
-import org.dmfs.httpclient.HttpResponse;
-import org.dmfs.httpclient.HttpResponseHandler;
-import org.dmfs.httpclient.HttpStatus;
-import org.dmfs.httpclient.exceptions.ClientErrorException;
-import org.dmfs.httpclient.exceptions.NotFoundException;
-import org.dmfs.httpclient.exceptions.ProtocolError;
-import org.dmfs.httpclient.exceptions.ProtocolException;
-import org.dmfs.httpclient.exceptions.ServerErrorException;
-import org.dmfs.httpclient.exceptions.UnauthorizedException;
-import org.dmfs.httpclient.exceptions.UnexpectedStatusException;
+import org.dmfs.httpessentials.HttpStatus;
+import org.dmfs.httpessentials.client.HttpResponse;
+import org.dmfs.httpessentials.client.HttpResponseHandler;
+import org.dmfs.httpessentials.exceptions.ClientErrorException;
+import org.dmfs.httpessentials.exceptions.NotFoundException;
+import org.dmfs.httpessentials.exceptions.ProtocolError;
+import org.dmfs.httpessentials.exceptions.ProtocolException;
+import org.dmfs.httpessentials.exceptions.ServerErrorException;
+import org.dmfs.httpessentials.exceptions.UnauthorizedException;
+import org.dmfs.httpessentials.exceptions.UnexpectedStatusException;
 
 
 /**

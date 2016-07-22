@@ -1,4 +1,4 @@
-package org.dmfs.httpclient.entities;
+package org.dmfs.httpessentials.entities;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNull;

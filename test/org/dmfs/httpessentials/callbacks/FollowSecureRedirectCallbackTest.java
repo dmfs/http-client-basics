@@ -1,11 +1,11 @@
-package org.dmfs.httpclient.callbacks;
+package org.dmfs.httpessentials.callbacks;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
 import java.net.URI;
 
-import org.dmfs.httpclient.HttpStatus;
+import org.dmfs.httpessentials.HttpStatus;
 import org.junit.Test;
 
 
